@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Home Assignment For GE tests">
+    <test name="All tests">
+        <classes>
+            <class name="api_tests.RestApiTests"/>
+            <class name="ui_tests.GoogleSearchTests"/>
+        </classes>
+    </test>
+</suite>
